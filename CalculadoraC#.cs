@@ -12,32 +12,32 @@ namespace Calculadora
         {
             //Calculadora para iniciar com C#
 
-            double num1, num2;
+            double numero1, numero2;
             string tmp;
 
             Console.WriteLine("Digite um número: ");
             tmp = Console.ReadLine();
-            num1 = int.Parse(tmp);
+            numero1 = int.Parse(tmp);
 
             Console.WriteLine("Digite mais um número: ");
             Console.ReadLine();
-            num2 = int.Parse(tmp);
+            numero2 = int.Parse(tmp);
 
             double resultado;
             //Fazendo a soma dos numeros digitados e armazenando no resultado
-            resultado = num1 + num2;
+            resultado = numero1 + numero2;
             Console.WriteLine("Soma: " + resultado);
 
             //Fazendo a subtração dos numeros digitados e armazenando no resultado
-            resultado = num1 - num2;
+            resultado = numero1 - numero2;
             Console.WriteLine("Subtração: " + resultado);
 
             //Fazendo a Multiplicação dos numeros digitados e armazenando no resultado
-            resultado = num1 * num2;
+            resultado = numero1 * numero2;
             Console.WriteLine("Multiplicação: " + resultado);
 
              //Fazendo a divisão dos numeros digitados e armazenando no resultado
-            resultado = num1 / num2;
+            resultado = numero1 / numero2;
             Console.WriteLine("Divisão: " + resultado);
         }
     }
